@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços - Soares & Cavalcante</title>
+  <meta name="description" content="Portfólio">
+  <link rel="icon" href="assets/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>body{font-family:'Inter',sans-serif}</style>
+</head>
+<body class="text-gray-800 bg-white">
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:p-2 focus:rounded-md">Pular para conteúdo</a>
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-7xl mx-auto p-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-blue-900 grid place-items-center text-white text-sm font-bold">S&C</div>
+        <span class="text-xl font-extrabold text-blue-900">Soares & Cavalcante</span>
+      </a>
+      <button id="menuBtn" class="md:hidden inline-flex items-center px-3 py-2 border rounded-lg">Menu</button>
+      <nav id="nav" class="hidden md:flex items-center gap-6 absolute md:static top-full left-0 w-full md:w-auto bg-white border-b md:border-0 p-4 md:p-0">
+        <a class="navlink block py-2 px-3 rounded-lg" href="index.html">Início</a>
+        <a class="navlink block py-2 px-3 rounded-lg" href="servicos.html">Serviços</a>
+        <a class="navlink block py-2 px-3 rounded-lg" href="sobre.html">Sobre</a>
+        <a class="navlink block py-2 px-3 rounded-lg" href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo" tabindex="-1">
+
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <h1 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-8">Nossos serviços</h1>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-blue-900">
+    <a href="servicos/portaria-seguranca.html" class="card">🛡️ Portaria & Segurança</a>
+    <a href="servicos/mensageria-condominios.html" class="card">📦 Mensageria</a>
+    <a href="servicos/facilities-limpeza.html" class="card">🧹 Facilities & Limpeza</a>
+  </div>
+</section>
+
+  </main>
+  <footer class="mt-16 border-t bg-gray-50">
+    <div class="max-w-7xl mx-auto p-6 grid md:grid-cols-3 gap-8 text-sm">
+      <div>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-8 h-8 rounded-lg bg-blue-900 grid place-items-center text-white text-xs font-bold">S&C</div>
+          <span class="font-bold text-blue-900">Soares & Cavalcante</span>
+        </div>
+        <p class="text-gray-600">Excelência em gestão de serviços, segurança e facilities.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3 text-gray-900">Links</h4>
+        <ul class="space-y-2">
+          <li><a href="servicos.html" class="text-gray-600 hover:underline">Serviços</a></li>
+          <li><a href="sobre.html" class="text-gray-600 hover:underline">Sobre</a></li>
+          <li><a href="contato.html" class="text-gray-600 hover:underline">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3 text-gray-900">Contato</h4>
+        <p class="text-gray-600">São Paulo - SP<br> atendimento@soaresecavalcante.com<br> (11) 99999-9999</p>
+      </div>
+    </div>
+    <div class="border-t py-4 text-center text-xs text-gray-500">© 2025 Soares & Cavalcante</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

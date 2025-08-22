@@ -1,0 +1,9 @@
+
+:root{--brand:#0b2a6f;--gray-50:#f9fafb}
+html{scroll-behavior:smooth}
+.card{display:flex;align-items:center;gap:.75rem;padding:1rem;border:1px solid #e5e7eb;border-radius:.75rem;background:#fff;transition:.2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 25px -5px rgba(0,0,0,.1)}
+.input{width:100%;border:1px solid #e5e7eb;border-radius:.75rem;padding:.75rem 1rem}
+.navlink{transition:.2s}
+.navlink.active{background:#0b2a6f;color:#fff}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
